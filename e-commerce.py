@@ -1,12 +1,14 @@
 import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2.service_account import Credentials
+
 import json
 # ===== GOOGLE SHEETS AUTH =====
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 #CREDS = ServiceAccountCredentials.from_json_keyfile_name("service_account.json", SCOPE)
 CREDS =st.secrets["gcp_service_account"]
-CREDS=ServiceAccountCredentials.from_service_account_info(CREDS)
+CREDS=Credentials.from_service_account_info(CREDS)
 CLIENT = gspread.authorize(CREDS)
 SHEET = CLIENT.open("users101").sheet1  # Change to your sheet name
 
@@ -80,6 +82,7 @@ else:
         st.session_state.username = ""
 
         st.rerun()
+
 
 
 
