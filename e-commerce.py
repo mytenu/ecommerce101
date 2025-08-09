@@ -6,7 +6,7 @@ import json
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 #CREDS = ServiceAccountCredentials.from_json_keyfile_name("service_account.json", SCOPE)
 CREDS =st.secrets["gcp_service_account"]
-CREDS=Credentials.from_service_account_info(CREDS)
+CREDS=ServiceAccountCredentials.from_service_account_info(CREDS)
 CLIENT = gspread.authorize(CREDS)
 SHEET = CLIENT.open("users101").sheet1  # Change to your sheet name
 
@@ -80,6 +80,7 @@ else:
         st.session_state.username = ""
 
         st.rerun()
+
 
 
 
