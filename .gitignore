@@ -206,16 +206,4 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 # Google Cloud credentials
-{
-  "type": "service_account",
-  "project_id": "radiant-oven-468510-f2",
-  "private_key_id": "f3b0e6b55d77c1c6291a46c0cafc1393cf20751a",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1BYJzLBZ+UJU/\nESXLqKtv22rf0tqoht9tFykzRjzcJLF6u0uVZNSLN7vlz8ZLaLA98S3STC23ie2R\n+6/WcvHqDF3+Al1lsLJkD7QT6NgB1POPW2eepVHl4tWvDqGociiorz5TXXnafMam\n2RzkavzULqzRzwPSscZudG3YLsrwm7EtVLYtY86eNuybS0AgM1E8EQ8oWuqbd1h7\nJsYjgk6+3b0fcu0+cTjE1ljWsPk1WL0MBui3UGi8xxV18IpMvtsOf3zcfTiUc7zy\nz4WdubI1G6xrkeiCXrwW9c46gukMbZhEfSH/eWhBdIw8GQjAqCN6kIVutDwMmg+p\n6ArdNYIbAgMBAAECggEAUneqmM6WhsAuZfdpaREz3PcwhrxYChu7sMay6d2PP1lm\nE3w9MFeprqza6JTSCSut0uJLljlHQIzREsb/MerWw+ITdfNc2kV317cBumpC8f6y\nYPZqy+8T0u+WmrRHOGadmE+RzMfSihN7KqrRi0wkV4PWDpVJcBS2Sj63hhu3L4pv\nuqfop7HzVaiQOYf+X+xZ38clmdm47LXfGXKXV0Pdawun3OH06BDkC4b4ewC+GzGQ\nkXEQhTJSFeaq2egcbU1S/ole85KvgKEvra9b/f+OgEzrXcy3MElHnuNKN0F6F+WY\nCcGs/dkMCgxoOU/2mDjwSnhxKcsBoytDY0tCROiGMQKBgQD8WINfdo6YjY6ahF3G\nHRzwR2io4AvXkvm3W5gqZGarIo0HyRTU+M2canIFcu7yVwI4XgR3V98mQL9KolAM\nel1JHlIKpIDeXp0xflacJVizTg5wmwFkWKcdiCSJeMpmUWi4ISRhqb6ZFg3Z+5JL\nJ48VJNNK35tcwcGuory3CbeqcQKBgQC3pJX50Z5DIaYAlu6kvjdg/A6qtK1isZdr\nGiY4yFqHxlZnClciXj2a5oOE5wiWpvwbrZ9gC84pC/qMC27yMHYEcPPYA4oiAuaJ\nnNKnZKua+4yiWEmDHwRJpiLbXV+eDt2w+v50/wV0Rr7GITp1sSTz6fHceZUpi3H5\noAtYNvtDSwKBgQCYKU9eWwD1IDajGbnp4lg20vhbDG5XmTqWw9ZniY8XFohv72Ju\nYXCqJs2GV52Z57lg/+A1jnjyegxfFqyqOYbStkPGQxep/udOlt3m3eY0iJbQc8dN\nGN/8QMG3W2zAccpxbRqhAVf6u3+yt62pP7tZhpEaDueB8Ru3EE43GNb1IQKBgDDQ\nIr1AppyZeRJ3C//mP7obxZpCZEPziJgDX12Ag+/LHHRPH1IXUrC1zQeqkXHZ+PEy\neUaCXM40TOiksVzW3MfZbjdg2Xqo4rZ5ZNTxwVt0ubD9XqzntbAN5P4CF8RflzXP\nwYs/rid2Fod7lZpq97ON36gG+UsNscH0dI+CLc95AoGBANrOuUl8LUakGx7+vb33\nyY7O+exzCkr37/JKXCx6M10nPjInNpAsETw807YAimgEwzqDPicvDejE+y+1kMW9\nxE6R+uGehWOQpU4EQmiRem1aneEo/9YoH9jH6dkSpfTfA2ZmyqUcXcuQT0EZeypk\n0F8sJrzOv3VeaM8Ypwb3rGk+\n-----END PRIVATE KEY-----\n",
-  "client_email": "araba-997@radiant-oven-468510-f2.iam.gserviceaccount.com",
-  "client_id": "108680090741587464951",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/araba-997%40radiant-oven-468510-f2.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
